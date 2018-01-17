@@ -13,6 +13,14 @@ The following are explanations for each of the fields used for the app data. It'
 * dd - One or two digit day. Don't include 0 for single-digit days.
 * s - Schedule number. Refer to the schedules file in the Times folder.
 
+## Events
+* title - Title of the event.
+* link - Optional URL of the event.
+* startDate - Beginning of event. Must be in the format mm/dd/yy.
+* endDate - End of event, can be same day as beginning. Must be in the format mm/dd/yy.
+* startTime - Start time of event. Must be in the format hh:mm AA. AA can be either am or pm.
+* endTime - End time of event. Must be in the format hh:mm AA. AA can be either am or pm.
+
 ## Rooms
 * number - Room number. Use abbreviation for longer names (e.g. EGYM for east gym).
 * building - Must exactly match one building from the buildings list.
